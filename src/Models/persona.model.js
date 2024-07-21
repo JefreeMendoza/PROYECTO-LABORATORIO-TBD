@@ -1,5 +1,8 @@
 import mongoose from "mongoose";
-import AutoIncrement from 'mongoose-sequence';
+import AutoIncrementFactory from 'mongoose-sequence';
+
+// Pasa la instancia de mongoose a AutoIncrementFactory
+const AutoIncrement = AutoIncrementFactory(mongoose);
 
 const personaSchema = new mongoose.Schema({
     nPerCode: {
