@@ -11,6 +11,8 @@ import Contacto from '../Pages/Contacto'
 import Login from '../Pages/Login'
 import Register from '../Pages/Register'
 
+import IngresoPer from '../Pages/IngresoPages/IngresoPer'
+
 
 import Danza from '../Pages/TalleresPages/Danza'
 import Baile from '../Pages/TalleresPages/Baile'
@@ -40,6 +42,11 @@ function AppRouter() {
                     <Route
                         path='/personas'
                         element={<Personas />}
+                    />
+
+                    <Route
+                        path="/personas/ingreso"
+                        element={<IngresoPer />} /* INGRESANDO DATOS DE LA PESONA */
                     />
 
                     <Route

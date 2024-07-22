@@ -59,14 +59,14 @@ const personaSchema = new mongoose.Schema({
         trim: true,
         maxlength: 200,
     },
-    created_at: {
+    /* created_at: {
         type: Date,
         default: Date.now,
     },
     updated_at: {
         type: Date,
         default: Date.now,
-    },
+    }, */
 
 
 }, {
