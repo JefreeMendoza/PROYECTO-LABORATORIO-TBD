@@ -11,7 +11,7 @@ import Contacto from '../Pages/Contacto'
 import Login from '../Pages/Login'
 import Register from '../Pages/Register'
 
-import IngresoPer from '../Pages/IngresoPages/IngresoPer'
+import IngresoPer from '../Pages/PersonasPages/IngresoPer'
 
 
 import Danza from '../Pages/TalleresPages/Danza'
