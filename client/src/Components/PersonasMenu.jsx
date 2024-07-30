@@ -19,8 +19,8 @@ function PersonasMenu() {
             </h2> */}
                 <ul className="talleres-list">
                     <li><Link to="/personas/ingreso" className={getLinkClass('/personas/ingreso')}>Ingresar Datos</Link></li>
-                    {/*  <li><Link to="/personas/" className={getLinkClass('/personas/')}>...</Link></li>
-                    <li><Link to="/personas/" className={getLinkClass('/personas/')}>...</Link></li>
+                    <li><Link to="/personas/listado" className={getLinkClass('/personas/listado')}>Mostrar Personas</Link></li>
+                    {/* <li><Link to="/personas/" className={getLinkClass('/personas/')}>...</Link></li>
                     <li><Link to="/personas/" className={getLinkClass('/personas/')}>...</Link></li> */}
                 </ul>
             </div>

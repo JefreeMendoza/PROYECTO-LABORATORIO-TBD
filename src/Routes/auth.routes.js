@@ -19,7 +19,7 @@ router.post('/:id', getPersonaById); */
 
 router.post('/', createAlumno);
 router.get('/', getAlumnos);
-router.post('/:id', getAlumnoById);
+router.get('/:id', getAlumnoById);
 
 
 /* router.post('/:id', updateAlumno);

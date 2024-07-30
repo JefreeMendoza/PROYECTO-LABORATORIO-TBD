@@ -6,12 +6,16 @@ import { AuthProvider } from "../Context/Auth.Context";
 import Home from '../Pages/Home'
 import Personas from '../Pages/Personas'
 import Talleres from '../Pages/Talleres'
-import Asesoramiento from '../Pages/Asesoramiento'
+import Imagenes from '../Pages/Imagenes'
+/* import Asesoramiento from '../Pages/Asesoramiento' */
 import Contacto from '../Pages/Contacto'
+
 import Login from '../Pages/Login'
 import Register from '../Pages/Register'
 
 import IngresoPer from '../Pages/PersonasPages/IngresoPer'
+import ListadoPer from '../Pages/PersonasPages/ListadoPer'
+import DetailsPer from '../Components/PersonasComp/PersonasDetails'
 
 
 import Danza from '../Pages/TalleresPages/Danza'
@@ -46,7 +50,17 @@ function AppRouter() {
 
                     <Route
                         path="/personas/ingreso"
-                        element={<IngresoPer />} /* INGRESANDO DATOS DE LA PESONA */
+                        element={<IngresoPer />} /* INGRESANDO DATOS DE LA PERSONA */
+                    />
+
+                    <Route
+                        path="/personas/listado"
+                        element={<ListadoPer />} /* MOSTRAR LISTADO DE PERSONAS */
+                    />
+
+                    <Route
+                        path="/listado/persona/:id"
+                        element={<DetailsPer />} /* MOSTRAR DATOS DE UNA PERSONA */
                     />
 
                     <Route
@@ -78,9 +92,14 @@ function AppRouter() {
 
 
 
-                    <Route
+                    {/* <Route
                         path='/asesoramiento'
                         element={<Asesoramiento />}
+                    /> */}
+
+                    <Route
+                        path='/imagenes'
+                        element={<Imagenes />}
                     />
 
                     <Route

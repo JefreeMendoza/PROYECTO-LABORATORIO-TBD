@@ -44,7 +44,8 @@ function NavBar() {
                             <li><Link to="/" className={getLinkClass('/')}>Inicio</Link></li>
                             <li><Link to="/personas" className={getLinkClass('/personas')}>Personas</Link></li>
                             <li><Link to="/talleres" className={getLinkClass('/talleres')}>Talleres</Link></li>
-                            <li><Link to="/asesoramiento" className={getLinkClass('/asesoramiento')}>Asesoramiento</Link></li>
+                            {/* <li><Link to="/asesoramiento" className={getLinkClass('/asesoramiento')}>Asesoramiento</Link></li> */}
+                            <li><Link to="/imagenes" className={getLinkClass('/imagenes')}>Imagenes</Link></li>
                             <li><Link to="/contacto" className={getLinkClass('/contacto')}>Contacto</Link></li>
                         </ul>
                     </div>
