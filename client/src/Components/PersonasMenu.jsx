@@ -14,9 +14,9 @@ function PersonasMenu() {
     return (
         <>
             <div>
-                {/* <h2>
-                Personas: 
-            </h2> */}
+                <h2>
+                    Elegir una opción:
+                </h2>
                 <ul className="talleres-list">
                     <li><Link to="/personas/ingreso" className={getLinkClass('/personas/ingreso')}>Ingresar Datos</Link></li>
                     <li><Link to="/personas/listado" className={getLinkClass('/personas/listado')}>Mostrar Personas</Link></li>

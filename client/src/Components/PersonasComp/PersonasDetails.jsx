@@ -3,6 +3,8 @@ import { getAlumnoById } from '../../api/auth';
 import { useParams } from 'react-router-dom';
 
 import NavBar from '../NavBar';
+import PersonasMenu from '../../Components/PersonasMenu';
+import ListadoPer from '../../Pages/PersonasPages/ListadoPer';
 
 
 
@@ -22,7 +24,9 @@ const AlumnoDetail = () => {
 
     return (
         <div>
-            <NavBar />
+            {/* <NavBar />
+            <PersonasMenu /> */}
+            <ListadoPer />
             <h1>Detalle del Alumno</h1>
             <p>Nombre: {alumno.username}</p>
             <p>Curso: {alumno.course}</p>

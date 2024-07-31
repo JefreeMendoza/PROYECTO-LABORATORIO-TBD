@@ -9,10 +9,10 @@ const IngresoPer = () => {
     return (
         <div>
             <NavBar />
-            {/* <PersonasMenu /> */}
+            <PersonasMenu />
             <h1>Ingreso de Personas</h1>
-            <h2>Aqui se van a ingresar todas las personas </h2>
-            <h3>Aqui va el form </h3>
+            {/* <h2>Aqui se van a ingresar todas las personas </h2>
+            <h3>Aqui va el form </h3> */}
             {/* <AlumnoForm /> */}
             <PersonasForm />
         </div>
